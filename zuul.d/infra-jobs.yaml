@@ -1,0 +1,7 @@
+- job:
+    name: zuulv3-self-test
+    description: |
+      A basic liveness test for zuulv3 deployment
+    run: playbooks/zuulv3-self-test/main.yaml
+    nodeset: ubuntu-xenial
+

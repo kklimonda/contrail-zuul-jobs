@@ -1,0 +1,6 @@
+- nodeset:
+    name: ubuntu-xenial
+    nodes:
+      - name: ubuntu-xenial
+        label: ubuntu-xenial
+
